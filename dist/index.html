@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mancha</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="/dist/output.css" rel="stylesheet">
+</head>
+
+<body class="bg-home-background h-screen bg-cover ">
+    <section class="p-16 pb-3 "  >
+        <div class="w-40">
+            <a href="index.html"><img src="../dist/img/logo-no-background.png" alt="logo image" width="100%"/></a>
+        </div>
+        <!-- // flex flex-col -->
+        <div id="land" class=" land justify-start items-start"> 
+            <h1 class="text-6xl title">Management<br>Become Easy</h1>
+            <p class="text-1xl  text-gray-300 mb-5 tracking-wider w-80">Your MANCHA will help you to manage your students fast and easy.</p>
+            <button id="start-btn" class="btn">Start Now</button>
+        </div>
+        
+    </section>
+
+    <section id="login-form" class="hidden p-16 pt-0">
+        <h1 class="text-4xl title mb-0">Admin Login</h1>
+        <form class="flex flex-col" action="/" >
+            <input id="username" type="text" class="input-field"  placeholder="Username" required/>
+            <input id="password" type="password" class="input-field" placeholder="Password" required/>
+            <p id="error-box" class="text-primary hidden" ><i class='bx bx-error'></i> Invalid username or password</p>
+            <button id="login-btn" class="btn w-fit">Login Now</button>
+        </form>
+    </section>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+<script src="/dist/js/index.js"></script>
+</body>
+
+</html>

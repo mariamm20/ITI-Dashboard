@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn{
+    @apply rounded-3xl active:scale-95 my-5 px-5 py-4 font-bold hover:text-white uppercase shadow shadow-gray-900 bg-primary;
+}
+.title{
+    @apply uppercase text-white my-10 leading-snug tracking-widest;
+}
+.input-field{
+    @apply my-5 px-5 py-4 w-96 rounded-3xl bg-transparent border-2 outline-none text-white;
+}
+.list-item{
+    @apply my-1 text-white text-opacity-80 text-xl font-light bg-gray-300 bg-opacity-5 py-5 px-10 md:px-16 rounded hover:text-primary hover:cursor-pointer; 
+}
+.list-item i{
+    @apply text-primary mr-3;
+}
+.active{
+    @apply font-semibold text-white
+}
+.full{
+    @apply w-full
+}

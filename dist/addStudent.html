@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mancha</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link href="
+https://cdn.jsdelivr.net/npm/sweetalert2@11.10.3/dist/sweetalert2.min.css
+" rel="stylesheet">
+    <link href="/dist/output.css" rel="stylesheet" />
+</head>
+
+<body class="bg-secondary bg-cover">
+    <main class="grid grid-cols-1 md:grid-cols-3">
+        <section class="p-4 md:p-16 flex items-center justify-center flex-col">
+            <div class="w-24 md:w-40 mb-4 md:mb-0">
+                <a href="dashboard.html"><img src="../dist/img/logo-no-background.png" alt="logo image" width="100%" /></a>
+            </div>
+            <div class="md:h-screen">
+                <h3 class="text-center text-2xl md:text-3xl my-4 md:my-10 text-white my-10">Hello, Admin</h3>
+                <ul>
+                    <li class="list-item ">
+                       <a href="/dist/dashboard.html"> <i class="bx bx-grid-alt"></i> View Students</a>
+                    </li>
+                    <li class="list-item active">
+                        <a href="/dist/addStudent.html"><i class="bx bx-add-to-queue"></i> Add Student</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="/dist/editStudent.html"><i class="bx bx-edit"></i> Edit Student</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="/dist/deleteStudent.html"><i class="bx bx-message-square-x"></i> Delete Student</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="/dist/index.html"><i class="bx bx-log-out bx-flip-vertical"></i> Logout</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </section>
+        <section class="pt-8 md:pt-24 px-4 mb-5 md:pr-16 col-span-1 md:col-span-2">
+            <div class="flex  flex-row justify-between items-center mb-4 ">
+                <h1 class="text-2xl md:text-3xl text-white mb-4 md:mb-0">Add Student</h1>
+                <div class="w-12 md:w-14">
+                    <img src="/dist/img/add.gif" alt="view gif" width="100%">
+                </div>
+            </div>
+            <div id="content">
+                <p class="text-gray-400 mb-6">
+                    To add a new student, fill in the required information in the form below. Make sure to provide
+                    accurate details for a complete student record.
+                </p>
+                <form class="flex flex-col w-full items-end md:mt-16">
+                    <input id="studentName" type="text" class="input-field full" placeholder="Student Name" required />
+                    <input id="studentTrack" type="text" class="input-field full" placeholder="Student Track" required />
+                    <input id="studentBranch" type="text" class="input-field full" placeholder="Student Branch" required />
+                    <p id="error-add-box" class="text-primary hidden"><i class='bx bx-error item'></i> Invalid input data</p>
+                    <button id="save-btn" class="btn w-fit text-right">Save Student</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="
+https://cdn.jsdelivr.net/npm/sweetalert2@11.10.3/dist/sweetalert2.all.min.js
+"></script>
+    <script src="/dist/js/add.js"></script>
+</body>
+
+</html>
