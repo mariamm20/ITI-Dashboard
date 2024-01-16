@@ -8,8 +8,8 @@ module.exports = {
         'secondary':"#333333"
       },
       backgroundImage: {
-        'home-background':"url(../dist/bg.jpg)",
-        'dashboard-background' : "url(../dist/img/bg2.jpg)"
+        'home-background':"url(img/bg.jpg)",
+        'dashboard-background' : "url(img/bg2.jpg)"
       },
       fontSize: {
         header: ['60px', '5.75rem'],

@@ -717,7 +717,7 @@ video {
 }
 
 .bg-home-background {
-  background-image: url(/dist/img/bg.jpg);
+  background-image: url(img/bg.jpg);
 }
 
 .bg-cover {
