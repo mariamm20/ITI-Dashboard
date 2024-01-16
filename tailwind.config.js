@@ -8,7 +8,7 @@ module.exports = {
         'secondary':"#333333"
       },
       backgroundImage: {
-        'home-background':"url(img/bg.jpg)",
+        'home-background':"url(https://mariamm20.github.io/ITI-Dashboard/dist/img/bg.jpg)",
         'dashboard-background' : "url(img/bg2.jpg)"
       },
       fontSize: {
