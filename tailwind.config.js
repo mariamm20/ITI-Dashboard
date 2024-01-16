@@ -10,6 +10,9 @@ module.exports = {
       backgroundImage: {
         'home-background':"url(/dist/img/bg.jpg)",
         'dashboard-background' : "url(/dist/img/bg2.jpg)"
+      },
+      fontSize: {
+        header: ['60px', '5.75rem'],
       }
     },
   },

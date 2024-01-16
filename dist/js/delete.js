@@ -40,3 +40,7 @@ saveBtn.addEventListener("click", (e) => {
           });
     }
 });
+const timeline = gsap.timeline({ defaults: { duration: .5 } });
+timeline
+
+    .from(".title-div", { y: "-300", ease: "none" })

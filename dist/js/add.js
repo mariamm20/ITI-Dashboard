@@ -50,3 +50,7 @@ saveBtn.addEventListener("click", (e) => {
         errorAddBox.classList.add("flex","flex-start","items-center","w-full");
     }
 });
+const timeline = gsap.timeline({ defaults: { duration: .5 } });
+timeline
+
+    .from(".title-div", { y: "-300", ease: "none" })

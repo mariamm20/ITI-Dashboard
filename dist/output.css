@@ -522,8 +522,20 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.absolute {
+  position: absolute;
+}
+
 .relative {
   position: relative;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.top-0 {
+  top: 0px;
 }
 
 .col-span-1 {
@@ -543,10 +555,6 @@ video {
 .my-5 {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
-}
-
-.mb-0 {
-  margin-bottom: 0px;
 }
 
 .mb-4 {
@@ -609,8 +617,8 @@ video {
   width: 10rem;
 }
 
-.w-80 {
-  width: 20rem;
+.w-56 {
+  width: 14rem;
 }
 
 .w-fit {
@@ -662,6 +670,10 @@ video {
   justify-content: space-between;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .overflow-x-auto {
   overflow-x: auto;
 }
@@ -710,6 +722,10 @@ video {
 
 .bg-cover {
   background-size: cover;
+}
+
+.p-10 {
+  padding: 2.5rem;
 }
 
 .p-16 {
@@ -769,14 +785,9 @@ video {
   line-height: 2rem;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .tracking-wider {
@@ -845,6 +856,25 @@ video {
 .title {
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 60px;
+    line-height: 5.75rem;
+  }
+}
+
+.login-title {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  margin-top: 0px;
   text-transform: uppercase;
   line-height: 1.375;
   letter-spacing: 0.1em;
@@ -855,7 +885,6 @@ video {
 .input-field {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
-  width: 24rem;
   border-radius: 1.5rem;
   border-width: 2px;
   background-color: transparent;
@@ -867,6 +896,12 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
   outline: 2px solid transparent;
   outline-offset: 2px;
+}
+
+@media (min-width: 768px) {
+  .input-field {
+    width: 24rem;
+  }
 }
 
 .list-item {
@@ -937,12 +972,12 @@ video {
     margin-top: 4rem;
   }
 
-  .md\:mt-8 {
-    margin-top: 2rem;
-  }
-
   .md\:mt-5 {
     margin-top: 1.25rem;
+  }
+
+  .md\:block {
+    display: block;
   }
 
   .md\:table-cell {
@@ -959,6 +994,14 @@ video {
 
   .md\:w-40 {
     width: 10rem;
+  }
+
+  .md\:w-80 {
+    width: 20rem;
+  }
+
+  .md\:w-96 {
+    width: 24rem;
   }
 
   .md\:grid-cols-3 {
@@ -980,5 +1023,10 @@ video {
   .md\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
+  }
+
+  .md\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 }

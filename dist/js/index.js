@@ -11,8 +11,8 @@ var username = document.getElementById("username");
 var password = document.getElementById("password");
 var errorBox = document.getElementById("error-box");
 var loginBtn = document.getElementById("login-btn");
-// localStorage.setItem("username", "admin101");
-// localStorage.setItem("password" , "123456");
+localStorage.setItem("username", "admin101");
+localStorage.setItem("password" , "admin101+");
 loginBtn.addEventListener("click", (e) => {
     e.preventDefault();
 
