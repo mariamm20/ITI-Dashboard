@@ -11,56 +11,63 @@
 </head>
 
 <body class="bg-home-background h-screen relative bg-cover overflow-hidden">
+    <div class="loader bg-secondary h-screen flex flex-col justify-center items-center z-50">
+        <div class="w-12 h-12 rounded-full animate-spin 
+                    border-x-2 border-solid border-yellow-600 border-t-transparent"></div>
+                    <p class="m-5 text-white">Loading Mancha ... </p>
+    </div>
+    
     <div class="hidden md:block  md:w-96 absolute right-0 top-0">
         <ul id="scene">
-            
+
             <li class="layer " data-depth="0.1">
-                <img src="../dist/img/stars/1.png" alt="img" width="100%"/>
+                <img src="../dist/img/stars/1.png" alt="img" width="100%" />
             </li>
             <li class="layer" data-depth="0.2">
-                <img src="../dist/img/stars/4.png" alt="img" width="100%"/>
+                <img src="../dist/img/stars/4.png" alt="img" width="100%" />
             </li>
             <li class="layer" data-depth="0.3">
-                <img src="../dist/img/stars/3.png" alt="img" width="100%"/>
+                <img src="../dist/img/stars/3.png" alt="img" width="100%" />
             </li>
             <li class="layer" data-depth="0.4">
-                <img src="../dist/img/stars/2.png" alt="img" width="100%"/>
+                <img src="../dist/img/stars/2.png" alt="img" width="100%" />
             </li>
             <li class="layer" data-depth="0.5">
-                <img src="../dist/img/stars/5.png" alt="img" width="100%"/>
+                <img src="../dist/img/stars/5.png" alt="img" width="100%" />
             </li>
             <li class="layer" data-depth="0.6">
-                <img src="../dist/img/stars/6.png" alt="img" width="100%"/>
+                <img src="../dist/img/stars/6.png" alt="img" width="100%" />
             </li>
             <li class="layer" data-depth="0.7">
-                <img src="../dist/img/stars/7.png" alt="img" width="100%"/>
+                <img src="../dist/img/stars/7.png" alt="img" width="100%" />
             </li>
             <li class="layer" data-depth="0.8">
-                <img src="../dist/img/stars/8.png" alt="img" width="100%"/>
+                <img src="../dist/img/stars/8.png" alt="img" width="100%" />
             </li>
         </ul>
     </div>
-    
+
     <section class="p-10 md:p-16 pb-3">
         <div class="w-40">
-            <a href="index.html"><img src="../dist/img/logo-no-background.png" alt="logo image" width="100%"/></a>
+            <a href="index.html"><img src="../dist/img/logo-no-background.png" alt="logo image" width="100%" /></a>
         </div>
-        
+
         <!-- // flex flex-col -->
-        <div id="land" class=" land justify-start items-start"> 
+        <div id="land" class=" land justify-start items-start">
             <h1 class="title">Management<br>Become Easy</h1>
-            <p class="text-1xl  text-gray-300 mb-5 tracking-wider w-56 md:w-80">Your MANCHA will help you to manage your students fast and easy.</p>
+            <p class="text-1xl  text-gray-300 mb-5 tracking-wider w-56 md:w-80">Your MANCHA will help you to manage your
+                students fast and easy.</p>
             <button id="start-btn" class="btn">Start Now</button>
         </div>
-        
+
     </section>
 
     <section id="login-form" class="hidden p-16 pt-0">
-        <h1 class="text-3xl md:text-4xl login-title" >Admin Login</h1>
-        <form class="flex flex-col" action="/" >
-            <input id="username" type="text" class="input-field"  placeholder="Username" required/>
-            <input id="password" type="password" class="input-field" placeholder="Password" required/>
-            <p id="error-box" class="text-primary hidden" ><i class='bx bx-error'></i> Invalid username or password</p>
+        <h1 class="text-3xl md:text-4xl login-title">Admin Login</h1>
+        <form class="flex flex-col" action="/">
+            <input id="username" type="text" class="input-field" placeholder="Username" required />
+            <input id="password" type="password" class="input-field" placeholder="Password" required />
+            <p id="error-box" class="text-primary hidden"><i class='bx bx-error'></i> Invalid username or password</p>
             <button id="login-btn" class="btn w-fit">Login Now</button>
         </form>
     </section>
@@ -71,12 +78,12 @@
 
         try {
             var parallaxInstance1 = new Parallax(scene);
-            
+
         } catch (error) {
             console.error('Parallax initialization error:', error);
         }
     </script>
-<script src="../dist/js/index.js"></script>
+    <script src="../dist/js/index.js"></script>
 </body>
 
 </html>
