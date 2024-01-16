@@ -7,7 +7,7 @@
     var tableBody = document.getElementById("table-body");
     var arrayOfStudents = JSON.parse(localStorage.getItem("studentsData"));
     console.log(arrayOfStudents)
-    if (arrayOfStudents.length > 0) {
+    if (arrayOfStudents && arrayOfStudents.length > 0) {
         for (var i = 0; i < arrayOfStudents.length; i++) {
             var tr = document.createElement("tr");
             tr.innerHTML = ` <tr>
