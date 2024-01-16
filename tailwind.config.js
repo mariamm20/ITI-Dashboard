@@ -8,7 +8,7 @@ module.exports = {
         'secondary':"#333333"
       },
       backgroundImage: {
-        'home-background':"url(../dist/img/bg.jpg)",
+        'home-background':"url(../dist/bg.jpg)",
         'dashboard-background' : "url(../dist/img/bg2.jpg)"
       },
       fontSize: {
