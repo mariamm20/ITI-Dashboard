@@ -1,6 +1,6 @@
 # Mancha Website
 ## Basic Student Management System For Information Technology Institute
-##### _Developed By Mariam Mohamed Ibrahim 
+##### _Developed By Mariam Mohamed Ibrahim_
 
 Mancha is a simple dynamic website which has the following specs.
 
