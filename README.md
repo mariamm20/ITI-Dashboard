@@ -23,7 +23,7 @@ All data is stored in local storage of browser
 
 ## ✨ Demo
 
-Banky is hosted on Github pages >> 
+Mancha is hosted on Github pages >> 
 [Mancha Website](https://mariamm20.github.io/ITI-Dashboard/dist/index.html)
 
 
@@ -35,8 +35,8 @@ Install the dependencies and devDependencies and start the server.
 cd ITI-Dashboard
 npm i
 ```
-open live server 
-for login admin
-username: admin101
-password: admin101+
+- open live server 
+###### for login admin
+- username: admin101
+- password: admin101+
 
