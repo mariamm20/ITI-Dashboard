@@ -1,6 +1,6 @@
 # Mancha Website
 ## Basic Student Management System For Information Technology Institute
-##### Develop By Mariam Mohamed Ibrahim 
+##### _Developed By Mariam Mohamed Ibrahim 
 
 Mancha is a simple dynamic website which has the following specs.
 
@@ -35,8 +35,7 @@ Install the dependencies and devDependencies and start the server.
 cd ITI-Dashboard
 npm i
 ```
-- open live server 
-###### for login admin
+###### For testing purposes, open a live server. Use the following credentials for admin login:
 - username: admin101
 - password: admin101+
 
